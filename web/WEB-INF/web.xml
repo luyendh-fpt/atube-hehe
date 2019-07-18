@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
     <servlet>
+        <servlet-name>ListTubeController</servlet-name>
+        <servlet-class>tube.controller.ListTubeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListTubeController</servlet-name>
+        <url-pattern>/atube/list</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>ATubeApi</servlet-name>
         <servlet-class>tube.api.ATubeApi</servlet-class>
     </servlet>
